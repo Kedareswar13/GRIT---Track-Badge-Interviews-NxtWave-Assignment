@@ -1,0 +1,46 @@
+AI Product Engineer: Round 1 Assignment
+
+Context
+
+GRIT is a year-long skilling competition for engineering students at NIAT. Students clear skill contests, and
+once they have cleared every skill a Track Badge needs, they take a live online interview to earn that
+badge. A small team of interviewers runs these interviews, each with their own availability. Their badge
+gets nullified if the student was caught doing malpractice and got flagged later.
+
+You can explore GRIT Website and How GRIT Works page for reference.
+
+The problem
+
+Design an Interview scheduling feature where:
+    · Eligible students book an interview slot from their dashboard.
+    · Interviewers set and manage their availability.
+    · The interview team records the outcome: pass, fail, or retake later.
+    · Students see their interview status and result on their dashboard.
+    · The interview team sees which eligible students have booked and which haven't.
+
+What to submit
+
+Write up of (2 pages max)
+    1. States: every state a student's interview journey can be in, and what moves it from one to the
+         next. A simple table or diagram works.
+    2. Edge cases and questions: the cases you would handle, and the assumptions
+    3. Data model: your tables, key fields and schema, etc.
+
+Working Prototype: Build with any AI vibe coding tool.
+    4. A working prototype: Different screens that involve such as a student booking screen, and an
+         interviewer's daily schedule with outcome recording, etc.
+    5. Student messages: the 3 most important messages a student sees in this flow, written exactly as
+         they would appear.
+    6. Before and after screens: for the student home screen and other screens where you think this
+         interview result will make a difference, show how it looks before and after the result. Build these
+         into your working prototype.
+
+A Loom Recording of you explaining the project in your own words & your thought process behind it.
+Format and timeline
+
+    · Submit @
+         https://docs.google.com/forms/d/e/1FAIpQLSf_jajoFklxaxjbzYPMnvFfcd5eQP2zv4WudtkrgvUS0
+         MjWgA/viewform
+
+    · Submit before 14 Nov
+

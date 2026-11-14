@@ -1,0 +1,611 @@
+{
+  "$comment": "GOLDEN DATASET — canonical fixture for demo, tests and the eval pipeline. Dates are tokens resolved at load: 2026-11-14, 2026-11-15, {{T+n}}, {{T-n}}. Covers every journey state so all screens are demonstrable.",
+  "tracks": [
+    {
+      "id": "t_fs",
+      "name": "Full-Stack Web Development",
+      "badgeName": "Full-Stack Track Badge",
+      "requiredSkills": [
+        "HTML & CSS",
+        "JavaScript",
+        "React",
+        "Node.js",
+        "Databases",
+        "Git"
+      ]
+    },
+    {
+      "id": "t_dai",
+      "name": "Data & AI",
+      "badgeName": "Data & AI Track Badge",
+      "requiredSkills": [
+        "Python",
+        "Statistics",
+        "SQL",
+        "Machine Learning",
+        "Data Visualization"
+      ]
+    }
+  ],
+  "staff": [
+    {
+      "id": "iv1",
+      "name": "Ms. Kavya Rao",
+      "email": "kavya.rao@niat.edu.in",
+      "role": "interviewer"
+    },
+    {
+      "id": "iv2",
+      "name": "Mr. Arjun Bhat",
+      "email": "arjun.bhat@niat.edu.in",
+      "role": "interviewer"
+    },
+    {
+      "id": "iv3",
+      "name": "Ms. Fatima Sheikh",
+      "email": "fatima.sheikh@niat.edu.in",
+      "role": "interviewer"
+    },
+    {
+      "id": "ops1",
+      "name": "GRIT Ops Desk",
+      "email": "ops@niat.edu.in",
+      "role": "admin"
+    }
+  ],
+  "students": [
+    {
+      "id": "s01",
+      "name": "Aarav Sharma",
+      "email": "aarav.s@niat.edu.in",
+      "trackId": "t_fs",
+      "skillsCleared": [
+        "HTML & CSS",
+        "JavaScript",
+        "React",
+        "Node.js",
+        "Databases",
+        "Git"
+      ],
+      "interviewState": "BOOKED",
+      "noShowCount": 0,
+      "attempts": 1,
+      "retakeAvailableFrom": null,
+      "badgeStatus": "none",
+      "badgeAwardedAt": null,
+      "nullifiedReason": null
+    },
+    {
+      "id": "s02",
+      "name": "Diya Patel",
+      "email": "diya.p@niat.edu.in",
+      "trackId": "t_fs",
+      "skillsCleared": [
+        "HTML & CSS",
+        "JavaScript",
+        "React",
+        "Node.js",
+        "Databases",
+        "Git"
+      ],
+      "interviewState": "ELIGIBLE",
+      "noShowCount": 0,
+      "attempts": 0,
+      "retakeAvailableFrom": null,
+      "badgeStatus": "none",
+      "badgeAwardedAt": null,
+      "nullifiedReason": null
+    },
+    {
+      "id": "s03",
+      "name": "Rohan Mehta",
+      "email": "rohan.m@niat.edu.in",
+      "trackId": "t_fs",
+      "skillsCleared": [
+        "HTML & CSS",
+        "JavaScript",
+        "React",
+        "Node.js",
+        "Databases",
+        "Git"
+      ],
+      "interviewState": "BOOKED",
+      "noShowCount": 0,
+      "attempts": 1,
+      "retakeAvailableFrom": null,
+      "badgeStatus": "none",
+      "badgeAwardedAt": null,
+      "nullifiedReason": null
+    },
+    {
+      "id": "s04",
+      "name": "Ishita Rao",
+      "email": "ishita.r@niat.edu.in",
+      "trackId": "t_fs",
+      "skillsCleared": [
+        "HTML & CSS",
+        "JavaScript",
+        "React",
+        "Node.js",
+        "Databases",
+        "Git"
+      ],
+      "interviewState": "BOOKED",
+      "noShowCount": 0,
+      "attempts": 1,
+      "retakeAvailableFrom": null,
+      "badgeStatus": "none",
+      "badgeAwardedAt": null,
+      "nullifiedReason": null
+    },
+    {
+      "id": "s05",
+      "name": "Kabir Singh",
+      "email": "kabir.s@niat.edu.in",
+      "trackId": "t_fs",
+      "skillsCleared": [
+        "HTML & CSS",
+        "JavaScript",
+        "React",
+        "Node.js",
+        "Databases",
+        "Git"
+      ],
+      "interviewState": "PASSED",
+      "noShowCount": 0,
+      "attempts": 1,
+      "retakeAvailableFrom": null,
+      "badgeStatus": "active",
+      "badgeAwardedAt": "2026-11-13",
+      "nullifiedReason": null
+    },
+    {
+      "id": "s06",
+      "name": "Ananya Iyer",
+      "email": "ananya.i@niat.edu.in",
+      "trackId": "t_fs",
+      "skillsCleared": [
+        "HTML & CSS",
+        "JavaScript",
+        "React",
+        "Node.js",
+        "Databases",
+        "Git"
+      ],
+      "interviewState": "RETAKE_DUE",
+      "noShowCount": 0,
+      "attempts": 1,
+      "retakeAvailableFrom": "2026-11-19",
+      "badgeStatus": "none",
+      "badgeAwardedAt": null,
+      "nullifiedReason": null
+    },
+    {
+      "id": "s07",
+      "name": "Vihaan Gupta",
+      "email": "vihaan.g@niat.edu.in",
+      "trackId": "t_fs",
+      "skillsCleared": [
+        "HTML & CSS",
+        "JavaScript",
+        "React",
+        "Node.js",
+        "Databases",
+        "Git"
+      ],
+      "interviewState": "NO_SHOW",
+      "noShowCount": 1,
+      "attempts": 1,
+      "retakeAvailableFrom": null,
+      "badgeStatus": "none",
+      "badgeAwardedAt": null,
+      "nullifiedReason": null
+    },
+    {
+      "id": "s08",
+      "name": "Meera Nair",
+      "email": "meera.n@niat.edu.in",
+      "trackId": "t_fs",
+      "skillsCleared": [
+        "HTML & CSS",
+        "JavaScript",
+        "React",
+        "Node.js",
+        "Databases",
+        "Git"
+      ],
+      "interviewState": "PASSED",
+      "noShowCount": 0,
+      "attempts": 1,
+      "retakeAvailableFrom": null,
+      "badgeStatus": "nullified",
+      "badgeAwardedAt": "2026-11-04",
+      "nullifiedReason": "Proctor flagged impersonation in the React contest; review confirmed on 2026-11-14."
+    },
+    {
+      "id": "s09",
+      "name": "Aditya Verma",
+      "email": "aditya.v@niat.edu.in",
+      "trackId": "t_fs",
+      "skillsCleared": [
+        "HTML & CSS",
+        "JavaScript",
+        "React",
+        "Node.js"
+      ],
+      "interviewState": "NOT_ELIGIBLE",
+      "noShowCount": 0,
+      "attempts": 0,
+      "retakeAvailableFrom": null,
+      "badgeStatus": "none",
+      "badgeAwardedAt": null,
+      "nullifiedReason": null
+    },
+    {
+      "id": "s10",
+      "name": "Saanvi Kulkarni",
+      "email": "saanvi.k@niat.edu.in",
+      "trackId": "t_fs",
+      "skillsCleared": [
+        "HTML & CSS",
+        "JavaScript"
+      ],
+      "interviewState": "NOT_ELIGIBLE",
+      "noShowCount": 0,
+      "attempts": 0,
+      "retakeAvailableFrom": null,
+      "badgeStatus": "none",
+      "badgeAwardedAt": null,
+      "nullifiedReason": null
+    },
+    {
+      "id": "s11",
+      "name": "Arjun Reddy",
+      "email": "arjun.r@niat.edu.in",
+      "trackId": "t_dai",
+      "skillsCleared": [
+        "Python",
+        "Statistics",
+        "SQL",
+        "Machine Learning",
+        "Data Visualization"
+      ],
+      "interviewState": "ELIGIBLE",
+      "noShowCount": 0,
+      "attempts": 0,
+      "retakeAvailableFrom": null,
+      "badgeStatus": "none",
+      "badgeAwardedAt": null,
+      "nullifiedReason": null
+    },
+    {
+      "id": "s12",
+      "name": "Nisha Menon",
+      "email": "nisha.m@niat.edu.in",
+      "trackId": "t_dai",
+      "skillsCleared": [
+        "Python",
+        "Statistics",
+        "SQL",
+        "Machine Learning",
+        "Data Visualization"
+      ],
+      "interviewState": "BOOKED",
+      "noShowCount": 0,
+      "attempts": 1,
+      "retakeAvailableFrom": null,
+      "badgeStatus": "none",
+      "badgeAwardedAt": null,
+      "nullifiedReason": null
+    },
+    {
+      "id": "s13",
+      "name": "Dev Malhotra",
+      "email": "dev.m@niat.edu.in",
+      "trackId": "t_dai",
+      "skillsCleared": [
+        "Python",
+        "Statistics",
+        "SQL",
+        "Machine Learning",
+        "Data Visualization"
+      ],
+      "interviewState": "PASSED",
+      "noShowCount": 0,
+      "attempts": 1,
+      "retakeAvailableFrom": null,
+      "badgeStatus": "active",
+      "badgeAwardedAt": "2026-11-11",
+      "nullifiedReason": null
+    },
+    {
+      "id": "s14",
+      "name": "Tara Joshi",
+      "email": "tara.j@niat.edu.in",
+      "trackId": "t_dai",
+      "skillsCleared": [
+        "Python",
+        "Statistics",
+        "SQL",
+        "Machine Learning",
+        "Data Visualization"
+      ],
+      "interviewState": "NO_SHOW",
+      "noShowCount": 2,
+      "attempts": 2,
+      "retakeAvailableFrom": "2026-11-23",
+      "badgeStatus": "none",
+      "badgeAwardedAt": null,
+      "nullifiedReason": null
+    }
+  ],
+  "slots": [
+    {
+      "id": "sl01",
+      "interviewerId": "iv1",
+      "date": "2026-11-14",
+      "startTime": "10:00",
+      "endTime": "10:30",
+      "capacity": 1,
+      "bookedCount": 1,
+      "status": "open"
+    },
+    {
+      "id": "sl02",
+      "interviewerId": "iv1",
+      "date": "2026-11-14",
+      "startTime": "10:30",
+      "endTime": "11:00",
+      "capacity": 1,
+      "bookedCount": 0,
+      "status": "open"
+    },
+    {
+      "id": "sl03",
+      "interviewerId": "iv1",
+      "date": "2026-11-14",
+      "startTime": "16:00",
+      "endTime": "16:30",
+      "capacity": 1,
+      "bookedCount": 1,
+      "status": "open"
+    },
+    {
+      "id": "sl04",
+      "interviewerId": "iv2",
+      "date": "2026-11-14",
+      "startTime": "11:00",
+      "endTime": "11:30",
+      "capacity": 2,
+      "bookedCount": 0,
+      "status": "open"
+    },
+    {
+      "id": "sl05",
+      "interviewerId": "iv2",
+      "date": "2026-11-14",
+      "startTime": "17:00",
+      "endTime": "17:30",
+      "capacity": 1,
+      "bookedCount": 0,
+      "status": "open"
+    },
+    {
+      "id": "sl06",
+      "interviewerId": "iv1",
+      "date": "2026-11-15",
+      "startTime": "10:00",
+      "endTime": "10:30",
+      "capacity": 1,
+      "bookedCount": 1,
+      "status": "open"
+    },
+    {
+      "id": "sl07",
+      "interviewerId": "iv1",
+      "date": "2026-11-15",
+      "startTime": "11:00",
+      "endTime": "11:30",
+      "capacity": 1,
+      "bookedCount": 0,
+      "status": "open"
+    },
+    {
+      "id": "sl08",
+      "interviewerId": "iv3",
+      "date": "2026-11-15",
+      "startTime": "15:00",
+      "endTime": "15:30",
+      "capacity": 1,
+      "bookedCount": 0,
+      "status": "open"
+    },
+    {
+      "id": "sl09",
+      "interviewerId": "iv3",
+      "date": "2026-11-17",
+      "startTime": "10:30",
+      "endTime": "11:00",
+      "capacity": 1,
+      "bookedCount": 0,
+      "status": "open"
+    },
+    {
+      "id": "sl10",
+      "interviewerId": "iv3",
+      "date": "2026-11-17",
+      "startTime": "16:30",
+      "endTime": "17:00",
+      "capacity": 1,
+      "bookedCount": 1,
+      "status": "open"
+    },
+    {
+      "id": "sl11",
+      "interviewerId": "iv2",
+      "date": "2026-11-19",
+      "startTime": "11:00",
+      "endTime": "11:30",
+      "capacity": 1,
+      "bookedCount": 0,
+      "status": "open"
+    },
+    {
+      "id": "sl90",
+      "interviewerId": "iv1",
+      "date": "2026-11-13",
+      "startTime": "10:00",
+      "endTime": "10:30",
+      "capacity": 1,
+      "bookedCount": 1,
+      "status": "open"
+    },
+    {
+      "id": "sl91",
+      "interviewerId": "iv2",
+      "date": "2026-11-13",
+      "startTime": "15:00",
+      "endTime": "15:30",
+      "capacity": 1,
+      "bookedCount": 1,
+      "status": "open"
+    },
+    {
+      "id": "sl92",
+      "interviewerId": "iv3",
+      "date": "2026-11-12",
+      "startTime": "11:00",
+      "endTime": "11:30",
+      "capacity": 1,
+      "bookedCount": 1,
+      "status": "open"
+    }
+  ],
+  "interviews": [
+    {
+      "id": "i01",
+      "studentId": "s03",
+      "slotId": "sl01",
+      "trackId": "t_fs",
+      "status": "booked",
+      "bookedAt": "2026-11-12T09:00:00.000Z",
+      "meetingLink": "meet.google.com/grit-i01"
+    },
+    {
+      "id": "i02",
+      "studentId": "s04",
+      "slotId": "sl06",
+      "trackId": "t_fs",
+      "status": "booked",
+      "bookedAt": "2026-11-12T09:00:00.000Z",
+      "meetingLink": "meet.google.com/grit-i02"
+    },
+    {
+      "id": "i03",
+      "studentId": "s12",
+      "slotId": "sl03",
+      "trackId": "t_dai",
+      "status": "booked",
+      "bookedAt": "2026-11-13T09:00:00.000Z",
+      "meetingLink": "meet.google.com/grit-i03"
+    },
+    {
+      "id": "i90",
+      "studentId": "s05",
+      "slotId": "sl90",
+      "trackId": "t_fs",
+      "status": "completed",
+      "bookedAt": "2026-11-09T09:00:00.000Z",
+      "meetingLink": "meet.google.com/grit-i90"
+    },
+    {
+      "id": "i91",
+      "studentId": "s06",
+      "slotId": "sl91",
+      "trackId": "t_fs",
+      "status": "completed",
+      "bookedAt": "2026-11-09T09:00:00.000Z",
+      "meetingLink": "meet.google.com/grit-i91"
+    },
+    {
+      "id": "i92",
+      "studentId": "s07",
+      "slotId": "sl92",
+      "trackId": "t_fs",
+      "status": "no_show",
+      "bookedAt": "2026-11-08T09:00:00.000Z",
+      "meetingLink": "meet.google.com/grit-i92"
+    },
+    {
+      "id": "i_mwg9p8bhdd",
+      "studentId": "s01",
+      "slotId": "sl10",
+      "trackId": "t_fs",
+      "status": "booked",
+      "bookedAt": "2026-11-14T10:33:17.405Z",
+      "meetingLink": null
+    }
+  ],
+  "outcomes": [
+    {
+      "id": "o90",
+      "interviewId": "i90",
+      "result": "pass",
+      "feedback": "Clean React architecture, explained state lifting well. Live-coded a debounced search without help.",
+      "aiAssisted": false,
+      "recordedBy": "Ms. Kavya Rao",
+      "recordedAt": "2026-11-13"
+    },
+    {
+      "id": "o91",
+      "interviewId": "i91",
+      "result": "fail",
+      "feedback": "Struggled with REST error handling; DB schema was unnormalised. Communication fine, fundamentals need another pass.",
+      "aiAssisted": false,
+      "recordedBy": "Mr. Arjun Bhat",
+      "recordedAt": "2026-11-13"
+    }
+  ],
+  "malpracticeFlags": [
+    {
+      "id": "mf01",
+      "studentId": "s08",
+      "reason": "Impersonation confirmed in React contest (proctor report #2211).",
+      "flaggedBy": "Academic Integrity Cell",
+      "flaggedAt": "2026-11-14"
+    }
+  ],
+  "transcripts": [
+    {
+      "interviewId": "i01",
+      "title": "Rohan Mehta · Full-Stack Badge · raw notes (live call)",
+      "notes": "Started 2 min late, camera on, decent setup — VS Code, own project (task manager).\nQ: Walk me through your React project. — Explained component tree clearly, props vs state correct. Lifted state up in the filter without prompting.\nQ: Explain the event loop. — Got the queue/stack idea, used console.log demo. Solid.\nQ: REST error handling. — Froze here. Said 'just try-catch everything' and could not explain status codes (400 vs 401 vs 500 confusion). Recovered partially after hint about semantic codes.\nLive coding: debounce search box. Completed in ~9 min with two hints on the timer cleanup. Would have liked him to test edge case (empty input) unprompted.\nDB: schema for tasks table had no FK to users, called it out, he normalised after discussion.\nOverall: strong React + JS fundamentals, weak HTTP/REST layer, communication clear, owns mistakes. Suggestions were absorbed quickly."
+    },
+    {
+      "interviewId": "i02",
+      "title": "Ishita Rao · Full-Stack Badge · raw notes (live call)",
+      "notes": "Well prepared, portfolio + deployed project ready.\nQ: Walk me through your app. — Deployed MERN notes app, explained auth flow with JWT refresh, clean.\nQ: Why Next.js over CRA for this? — Gave SSR + SEO reasons, a little surface level but correct.\nLive coding: implement a rate limiter (sliding window). Took ~12 min, needed one hint on memory cleanup of timestamps, then optimised to deque on her own.\nQ: Indexes — when do they hurt? — Knew write penalty, gave the B-tree reason without prompting.\nQ: Git workflow — explained rebase vs merge with a diagram on paper. Nice.\nCon: talked fast, interrupted twice, self-corrected though.\nOverall: interview-ready, breadth and depth both good, minor communication polish needed."
+    },
+    {
+      "interviewId": "i03",
+      "title": "Nisha Menon · Data & AI Badge · raw notes (live call)",
+      "notes": "Joined from phone first, switched to laptop — started 5 min late.\nQ: Explain your ML project. — Churn prediction, explained feature engineering fine but conflated precision/recall definitions, corrected after I drew the confusion matrix.\nQ: Overfitting — how do you detect and fix? — Knew train/val gap, listed regularisation, dropout, early stopping. Good.\nLive coding: pandas — groupby revenue by month with a rolling mean. Got 80% in 10 min, struggled with .rolling() window param, needed the docs hint.\nQ: SQL — write a join for top-3 customers per region. Window function froze her entirely; knew GROUP BY version only.\nQ: Bias in data — gave the sampling example, thoughtful answer.\nOverall: strong classical ML theory + pandas, SQL window functions and stats rigor below bar. Would not block on personality — coachable, needs one more pass on SQL."
+    }
+  ],
+  "log": [
+    {
+      "id": "lg_mwg9ft934x",
+      "at": "2026-11-14T10:25:57.975Z",
+      "actor": "system",
+      "action": "RESET",
+      "detail": "Golden dataset reloaded."
+    },
+    {
+      "id": "lg_mwg9p8bhia",
+      "at": "2026-11-14T10:33:17.405Z",
+      "actor": "Aarav Sharma",
+      "action": "BOOK",
+      "detail": "Aarav Sharma booked Full-Stack Track Badge interview on 2026-11-17 16:30–17:00 with Ms. Fatima Sheikh. Awaiting interviewer confirmation."
+    }
+  ]
+}

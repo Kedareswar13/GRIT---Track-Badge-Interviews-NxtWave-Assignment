@@ -1,0 +1,659 @@
+{
+  "$comment": "GOLDEN DATASET — canonical fixture for demo, tests and the eval pipeline. Dates are tokens resolved at load: {{TODAY}}, {{TOMORROW}}, {{T+n}}, {{T-n}}. Covers every journey state so all screens are demonstrable.",
+  "tracks": [
+    {
+      "id": "t_fs",
+      "name": "Full-Stack Web Development",
+      "badgeName": "Full-Stack Track Badge",
+      "requiredSkills": [
+        "HTML & CSS",
+        "JavaScript",
+        "React",
+        "Node.js",
+        "Databases",
+        "Git"
+      ]
+    },
+    {
+      "id": "t_dai",
+      "name": "Data & AI",
+      "badgeName": "Data & AI Track Badge",
+      "requiredSkills": [
+        "Python",
+        "Statistics",
+        "SQL",
+        "Machine Learning",
+        "Data Visualization"
+      ]
+    }
+  ],
+  "staff": [
+    {
+      "id": "iv1",
+      "name": "Ms. Kavya Rao",
+      "email": "kavya.rao@niat.edu.in",
+      "role": "interviewer",
+      "password": {
+        "salt": "4a965a3221be98bb079dfedd1aa004e6",
+        "hash": "75a22f2be03f2570e01aa3c995224560b36a51946636f3c745caf19ab389e858"
+      }
+    },
+    {
+      "id": "iv2",
+      "name": "Mr. Arjun Bhat",
+      "email": "arjun.bhat@niat.edu.in",
+      "role": "interviewer",
+      "password": {
+        "salt": "1f703f828f2691b0158f5edd60ef36c1",
+        "hash": "82654d69bff06ca173af8e063b7d9128ff7b02144b05eb06e29faeb276d51bca"
+      }
+    },
+    {
+      "id": "iv3",
+      "name": "Ms. Fatima Sheikh",
+      "email": "fatima.sheikh@niat.edu.in",
+      "role": "interviewer",
+      "password": {
+        "salt": "54b775aeaefc752f4ba7277f15c07218",
+        "hash": "8bf531fa4b054fcebf29a1f086c0a931b0c8e8df69ec6b1c4b40ccf2943f82cb"
+      }
+    },
+    {
+      "id": "ops1",
+      "name": "GRIT Ops Desk",
+      "email": "ops@niat.edu.in",
+      "role": "admin",
+      "password": {
+        "salt": "34dea4afcdaf543e39c3f72b5b76756a",
+        "hash": "1dc8851e117e5823f4e110b554698ed1c8638b7614a15401ffb1b614baf5d43b"
+      }
+    }
+  ],
+  "students": [
+    {
+      "id": "s01",
+      "name": "Aarav Sharma",
+      "email": "aarav.s@niat.edu.in",
+      "trackId": "t_fs",
+      "skillsCleared": [
+        "HTML & CSS",
+        "JavaScript",
+        "React",
+        "Node.js",
+        "Databases",
+        "Git"
+      ],
+      "interviewState": "ELIGIBLE",
+      "noShowCount": 0,
+      "attempts": 0,
+      "retakeAvailableFrom": null,
+      "badgeStatus": "none",
+      "badgeAwardedAt": null,
+      "nullifiedReason": null,
+      "password": {
+        "salt": "d0e7432363175775995c646baf8dc00b",
+        "hash": "a75943b77442ee084af0881da992722eb0b3f46368780ceedfe22ee0301482d3"
+      }
+    },
+    {
+      "id": "s02",
+      "name": "Diya Patel",
+      "email": "diya.p@niat.edu.in",
+      "trackId": "t_fs",
+      "skillsCleared": [
+        "HTML & CSS",
+        "JavaScript",
+        "React",
+        "Node.js",
+        "Databases",
+        "Git"
+      ],
+      "interviewState": "ELIGIBLE",
+      "noShowCount": 0,
+      "attempts": 0,
+      "retakeAvailableFrom": null,
+      "badgeStatus": "none",
+      "badgeAwardedAt": null,
+      "nullifiedReason": null,
+      "password": {
+        "salt": "6ab0308c4b01d35c89780e20ca4eec18",
+        "hash": "f86fe1d05a6d7a38e8218c0484da87aa27f03c3d194954b29c74be7297d7610c"
+      }
+    },
+    {
+      "id": "s03",
+      "name": "Rohan Mehta",
+      "email": "rohan.m@niat.edu.in",
+      "trackId": "t_fs",
+      "skillsCleared": [
+        "HTML & CSS",
+        "JavaScript",
+        "React",
+        "Node.js",
+        "Databases",
+        "Git"
+      ],
+      "interviewState": "BOOKED",
+      "noShowCount": 0,
+      "attempts": 1,
+      "retakeAvailableFrom": null,
+      "badgeStatus": "none",
+      "badgeAwardedAt": null,
+      "nullifiedReason": null,
+      "password": {
+        "salt": "42178b1120789f63218c0ebd813ca3fe",
+        "hash": "83dd99e9c4ef57e1af7de614fc10070e7c9705610e1378f07065c0e764ed8be8"
+      }
+    },
+    {
+      "id": "s04",
+      "name": "Ishita Rao",
+      "email": "ishita.r@niat.edu.in",
+      "trackId": "t_fs",
+      "skillsCleared": [
+        "HTML & CSS",
+        "JavaScript",
+        "React",
+        "Node.js",
+        "Databases",
+        "Git"
+      ],
+      "interviewState": "BOOKED",
+      "noShowCount": 0,
+      "attempts": 1,
+      "retakeAvailableFrom": null,
+      "badgeStatus": "none",
+      "badgeAwardedAt": null,
+      "nullifiedReason": null,
+      "password": {
+        "salt": "5fc4898335905b402f4d6d94a00147a8",
+        "hash": "bc4df5058b55607a66e7804cd1114b9d7cac18077b52da0ea45c0c1c26a0a7d7"
+      }
+    },
+    {
+      "id": "s05",
+      "name": "Kabir Singh",
+      "email": "kabir.s@niat.edu.in",
+      "trackId": "t_fs",
+      "skillsCleared": [
+        "HTML & CSS",
+        "JavaScript",
+        "React",
+        "Node.js",
+        "Databases",
+        "Git"
+      ],
+      "interviewState": "PASSED",
+      "noShowCount": 0,
+      "attempts": 1,
+      "retakeAvailableFrom": null,
+      "badgeStatus": "active",
+      "badgeAwardedAt": "{{T-1}}",
+      "nullifiedReason": null,
+      "password": {
+        "salt": "af15fbb13227b44fa0f8c3d48ed71cef",
+        "hash": "e96515afacd9e7b7f5d87703ebf4c8c51c60b030d404ab821f3baab36ea9e10c"
+      }
+    },
+    {
+      "id": "s06",
+      "name": "Ananya Iyer",
+      "email": "ananya.i@niat.edu.in",
+      "trackId": "t_fs",
+      "skillsCleared": [
+        "HTML & CSS",
+        "JavaScript",
+        "React",
+        "Node.js",
+        "Databases",
+        "Git"
+      ],
+      "interviewState": "RETAKE_DUE",
+      "noShowCount": 0,
+      "attempts": 1,
+      "retakeAvailableFrom": "{{T+5}}",
+      "badgeStatus": "none",
+      "badgeAwardedAt": null,
+      "nullifiedReason": null,
+      "password": {
+        "salt": "c1a2b64b6b9ff0cc515069466df32fb0",
+        "hash": "2c256912e3b705e01389a06ef15174d5daeab7264851e6d53114868960e7d9d4"
+      }
+    },
+    {
+      "id": "s07",
+      "name": "Vihaan Gupta",
+      "email": "vihaan.g@niat.edu.in",
+      "trackId": "t_fs",
+      "skillsCleared": [
+        "HTML & CSS",
+        "JavaScript",
+        "React",
+        "Node.js",
+        "Databases",
+        "Git"
+      ],
+      "interviewState": "NO_SHOW",
+      "noShowCount": 1,
+      "attempts": 1,
+      "retakeAvailableFrom": null,
+      "badgeStatus": "none",
+      "badgeAwardedAt": null,
+      "nullifiedReason": null,
+      "password": {
+        "salt": "222a77b3ca9fb946d2381da2e84dd8b9",
+        "hash": "22e7fc72bbdd9d10b6b0d657b15463b6c060634ac772d1729934f31d53d33330"
+      }
+    },
+    {
+      "id": "s08",
+      "name": "Meera Nair",
+      "email": "meera.n@niat.edu.in",
+      "trackId": "t_fs",
+      "skillsCleared": [
+        "HTML & CSS",
+        "JavaScript",
+        "React",
+        "Node.js",
+        "Databases",
+        "Git"
+      ],
+      "interviewState": "PASSED",
+      "noShowCount": 0,
+      "attempts": 1,
+      "retakeAvailableFrom": null,
+      "badgeStatus": "nullified",
+      "badgeAwardedAt": "{{T-10}}",
+      "nullifiedReason": "Proctor flagged impersonation in the React contest; review confirmed on {{TODAY}}.",
+      "password": {
+        "salt": "32e11ab60b34321ed93778ed3cf9c90b",
+        "hash": "6ce4a81f778b282582062cc1de8e7850643957a4753cb8a8b98b1f886abb7f43"
+      }
+    },
+    {
+      "id": "s09",
+      "name": "Aditya Verma",
+      "email": "aditya.v@niat.edu.in",
+      "trackId": "t_fs",
+      "skillsCleared": [
+        "HTML & CSS",
+        "JavaScript",
+        "React",
+        "Node.js"
+      ],
+      "interviewState": "NOT_ELIGIBLE",
+      "noShowCount": 0,
+      "attempts": 0,
+      "retakeAvailableFrom": null,
+      "badgeStatus": "none",
+      "badgeAwardedAt": null,
+      "nullifiedReason": null,
+      "password": {
+        "salt": "658e71c5b48e9382a3ad13669dda8e88",
+        "hash": "5b578dfe60eb1dcfcd8b48c79501f4370b50b7b284753bc5a9bbb9be091da290"
+      }
+    },
+    {
+      "id": "s10",
+      "name": "Saanvi Kulkarni",
+      "email": "saanvi.k@niat.edu.in",
+      "trackId": "t_fs",
+      "skillsCleared": [
+        "HTML & CSS",
+        "JavaScript"
+      ],
+      "interviewState": "NOT_ELIGIBLE",
+      "noShowCount": 0,
+      "attempts": 0,
+      "retakeAvailableFrom": null,
+      "badgeStatus": "none",
+      "badgeAwardedAt": null,
+      "nullifiedReason": null,
+      "password": {
+        "salt": "978a0f81bd31f4b4edd1a5242da42b37",
+        "hash": "100f77dcbf6a4c752ccea730e7a3a211444dfc4da8f5870290f7861ca70d8324"
+      }
+    },
+    {
+      "id": "s11",
+      "name": "Arjun Reddy",
+      "email": "arjun.r@niat.edu.in",
+      "trackId": "t_dai",
+      "skillsCleared": [
+        "Python",
+        "Statistics",
+        "SQL",
+        "Machine Learning",
+        "Data Visualization"
+      ],
+      "interviewState": "ELIGIBLE",
+      "noShowCount": 0,
+      "attempts": 0,
+      "retakeAvailableFrom": null,
+      "badgeStatus": "none",
+      "badgeAwardedAt": null,
+      "nullifiedReason": null,
+      "password": {
+        "salt": "a7d2d01609dca796bd3417a66a362b2e",
+        "hash": "32564f8fb75bb319638eaa217a62831fee9db1e1314cd65f505d79792b0076cd"
+      }
+    },
+    {
+      "id": "s12",
+      "name": "Nisha Menon",
+      "email": "nisha.m@niat.edu.in",
+      "trackId": "t_dai",
+      "skillsCleared": [
+        "Python",
+        "Statistics",
+        "SQL",
+        "Machine Learning",
+        "Data Visualization"
+      ],
+      "interviewState": "BOOKED",
+      "noShowCount": 0,
+      "attempts": 1,
+      "retakeAvailableFrom": null,
+      "badgeStatus": "none",
+      "badgeAwardedAt": null,
+      "nullifiedReason": null,
+      "password": {
+        "salt": "324f35634bfcdbecc6818120fc4bcb24",
+        "hash": "ce4afba306c375b519c427ee56e445a59d83e5a2b5d76d17fa3e650d5be75d54"
+      }
+    },
+    {
+      "id": "s13",
+      "name": "Dev Malhotra",
+      "email": "dev.m@niat.edu.in",
+      "trackId": "t_dai",
+      "skillsCleared": [
+        "Python",
+        "Statistics",
+        "SQL",
+        "Machine Learning",
+        "Data Visualization"
+      ],
+      "interviewState": "PASSED",
+      "noShowCount": 0,
+      "attempts": 1,
+      "retakeAvailableFrom": null,
+      "badgeStatus": "active",
+      "badgeAwardedAt": "{{T-3}}",
+      "nullifiedReason": null,
+      "password": {
+        "salt": "bd6468e091f3933a6a401b56857e4327",
+        "hash": "d08897fc5922c0e75bb6b362e6f33be858fb0f8b8409d2ff21bff2bb587ed46a"
+      }
+    },
+    {
+      "id": "s14",
+      "name": "Tara Joshi",
+      "email": "tara.j@niat.edu.in",
+      "trackId": "t_dai",
+      "skillsCleared": [
+        "Python",
+        "Statistics",
+        "SQL",
+        "Machine Learning",
+        "Data Visualization"
+      ],
+      "interviewState": "NO_SHOW",
+      "noShowCount": 2,
+      "attempts": 2,
+      "retakeAvailableFrom": "{{T+9}}",
+      "badgeStatus": "none",
+      "badgeAwardedAt": null,
+      "nullifiedReason": null,
+      "password": {
+        "salt": "2a0a11463e253775ba78362e84837785",
+        "hash": "03b3adcf392116aaff1e8f839f81b896e0db3fc674693357be1ac17eaca10a4f"
+      }
+    }
+  ],
+  "slots": [
+    {
+      "id": "sl01",
+      "interviewerId": "iv1",
+      "date": "{{TODAY}}",
+      "startTime": "10:00",
+      "endTime": "10:30",
+      "capacity": 1,
+      "bookedCount": 1,
+      "status": "open"
+    },
+    {
+      "id": "sl02",
+      "interviewerId": "iv1",
+      "date": "{{TODAY}}",
+      "startTime": "10:30",
+      "endTime": "11:00",
+      "capacity": 1,
+      "bookedCount": 0,
+      "status": "open"
+    },
+    {
+      "id": "sl03",
+      "interviewerId": "iv1",
+      "date": "{{TODAY}}",
+      "startTime": "16:00",
+      "endTime": "16:30",
+      "capacity": 1,
+      "bookedCount": 1,
+      "status": "open"
+    },
+    {
+      "id": "sl04",
+      "interviewerId": "iv2",
+      "date": "{{TODAY}}",
+      "startTime": "11:00",
+      "endTime": "11:30",
+      "capacity": 2,
+      "bookedCount": 0,
+      "status": "open"
+    },
+    {
+      "id": "sl05",
+      "interviewerId": "iv2",
+      "date": "{{TODAY}}",
+      "startTime": "17:00",
+      "endTime": "17:30",
+      "capacity": 1,
+      "bookedCount": 0,
+      "status": "open"
+    },
+    {
+      "id": "sl06",
+      "interviewerId": "iv1",
+      "date": "{{TOMORROW}}",
+      "startTime": "10:00",
+      "endTime": "10:30",
+      "capacity": 1,
+      "bookedCount": 1,
+      "status": "open"
+    },
+    {
+      "id": "sl07",
+      "interviewerId": "iv1",
+      "date": "{{TOMORROW}}",
+      "startTime": "11:00",
+      "endTime": "11:30",
+      "capacity": 1,
+      "bookedCount": 0,
+      "status": "open"
+    },
+    {
+      "id": "sl08",
+      "interviewerId": "iv3",
+      "date": "{{TOMORROW}}",
+      "startTime": "15:00",
+      "endTime": "15:30",
+      "capacity": 1,
+      "bookedCount": 0,
+      "status": "open"
+    },
+    {
+      "id": "sl09",
+      "interviewerId": "iv3",
+      "date": "{{T+3}}",
+      "startTime": "10:30",
+      "endTime": "11:00",
+      "capacity": 1,
+      "bookedCount": 0,
+      "status": "open"
+    },
+    {
+      "id": "sl10",
+      "interviewerId": "iv3",
+      "date": "{{T+3}}",
+      "startTime": "16:30",
+      "endTime": "17:00",
+      "capacity": 1,
+      "bookedCount": 0,
+      "status": "open"
+    },
+    {
+      "id": "sl11",
+      "interviewerId": "iv2",
+      "date": "{{T+5}}",
+      "startTime": "11:00",
+      "endTime": "11:30",
+      "capacity": 1,
+      "bookedCount": 0,
+      "status": "open"
+    },
+    {
+      "id": "sl90",
+      "interviewerId": "iv1",
+      "date": "{{T-1}}",
+      "startTime": "10:00",
+      "endTime": "10:30",
+      "capacity": 1,
+      "bookedCount": 1,
+      "status": "open"
+    },
+    {
+      "id": "sl91",
+      "interviewerId": "iv2",
+      "date": "{{T-1}}",
+      "startTime": "15:00",
+      "endTime": "15:30",
+      "capacity": 1,
+      "bookedCount": 1,
+      "status": "open"
+    },
+    {
+      "id": "sl92",
+      "interviewerId": "iv3",
+      "date": "{{T-2}}",
+      "startTime": "11:00",
+      "endTime": "11:30",
+      "capacity": 1,
+      "bookedCount": 1,
+      "status": "open"
+    }
+  ],
+  "interviews": [
+    {
+      "id": "i01",
+      "studentId": "s03",
+      "slotId": "sl01",
+      "trackId": "t_fs",
+      "status": "booked",
+      "bookedAt": "{{T-2}}T09:00:00.000Z",
+      "meetingLink": "meet.google.com/grit-i01"
+    },
+    {
+      "id": "i02",
+      "studentId": "s04",
+      "slotId": "sl06",
+      "trackId": "t_fs",
+      "status": "booked",
+      "bookedAt": "{{T-2}}T09:00:00.000Z",
+      "meetingLink": "meet.google.com/grit-i02"
+    },
+    {
+      "id": "i03",
+      "studentId": "s12",
+      "slotId": "sl03",
+      "trackId": "t_dai",
+      "status": "booked",
+      "bookedAt": "{{T-1}}T09:00:00.000Z",
+      "meetingLink": "meet.google.com/grit-i03"
+    },
+    {
+      "id": "i90",
+      "studentId": "s05",
+      "slotId": "sl90",
+      "trackId": "t_fs",
+      "status": "completed",
+      "bookedAt": "{{T-5}}T09:00:00.000Z",
+      "meetingLink": "meet.google.com/grit-i90"
+    },
+    {
+      "id": "i91",
+      "studentId": "s06",
+      "slotId": "sl91",
+      "trackId": "t_fs",
+      "status": "completed",
+      "bookedAt": "{{T-5}}T09:00:00.000Z",
+      "meetingLink": "meet.google.com/grit-i91"
+    },
+    {
+      "id": "i92",
+      "studentId": "s07",
+      "slotId": "sl92",
+      "trackId": "t_fs",
+      "status": "no_show",
+      "bookedAt": "{{T-6}}T09:00:00.000Z",
+      "meetingLink": "meet.google.com/grit-i92"
+    }
+  ],
+  "outcomes": [
+    {
+      "id": "o90",
+      "interviewId": "i90",
+      "result": "pass",
+      "feedback": "Clean React architecture, explained state lifting well. Live-coded a debounced search without help.",
+      "aiAssisted": false,
+      "recordedBy": "Ms. Kavya Rao",
+      "recordedAt": "{{T-1}}"
+    },
+    {
+      "id": "o91",
+      "interviewId": "i91",
+      "result": "fail",
+      "feedback": "Struggled with REST error handling; DB schema was unnormalised. Communication fine, fundamentals need another pass.",
+      "aiAssisted": false,
+      "recordedBy": "Mr. Arjun Bhat",
+      "recordedAt": "{{T-1}}"
+    }
+  ],
+  "malpracticeFlags": [
+    {
+      "id": "mf01",
+      "studentId": "s08",
+      "reason": "Impersonation confirmed in React contest (proctor report #2211).",
+      "flaggedBy": "Academic Integrity Cell",
+      "flaggedAt": "{{TODAY}}"
+    }
+  ],
+  "transcripts": [
+    {
+      "interviewId": "i01",
+      "title": "Rohan Mehta · Full-Stack Badge · raw notes (live call)",
+      "notes": "Started 2 min late, camera on, decent setup — VS Code, own project (task manager).\nQ: Walk me through your React project. — Explained component tree clearly, props vs state correct. Lifted state up in the filter without prompting.\nQ: Explain the event loop. — Got the queue/stack idea, used console.log demo. Solid.\nQ: REST error handling. — Froze here. Said 'just try-catch everything' and could not explain status codes (400 vs 401 vs 500 confusion). Recovered partially after hint about semantic codes.\nLive coding: debounce search box. Completed in ~9 min with two hints on the timer cleanup. Would have liked him to test edge case (empty input) unprompted.\nDB: schema for tasks table had no FK to users, called it out, he normalised after discussion.\nOverall: strong React + JS fundamentals, weak HTTP/REST layer, communication clear, owns mistakes. Suggestions were absorbed quickly."
+    },
+    {
+      "interviewId": "i02",
+      "title": "Ishita Rao · Full-Stack Badge · raw notes (live call)",
+      "notes": "Well prepared, portfolio + deployed project ready.\nQ: Walk me through your app. — Deployed MERN notes app, explained auth flow with JWT refresh, clean.\nQ: Why Next.js over CRA for this? — Gave SSR + SEO reasons, a little surface level but correct.\nLive coding: implement a rate limiter (sliding window). Took ~12 min, needed one hint on memory cleanup of timestamps, then optimised to deque on her own.\nQ: Indexes — when do they hurt? — Knew write penalty, gave the B-tree reason without prompting.\nQ: Git workflow — explained rebase vs merge with a diagram on paper. Nice.\nCon: talked fast, interrupted twice, self-corrected though.\nOverall: interview-ready, breadth and depth both good, minor communication polish needed."
+    },
+    {
+      "interviewId": "i03",
+      "title": "Nisha Menon · Data & AI Badge · raw notes (live call)",
+      "notes": "Joined from phone first, switched to laptop — started 5 min late.\nQ: Explain your ML project. — Churn prediction, explained feature engineering fine but conflated precision/recall definitions, corrected after I drew the confusion matrix.\nQ: Overfitting — how do you detect and fix? — Knew train/val gap, listed regularisation, dropout, early stopping. Good.\nLive coding: pandas — groupby revenue by month with a rolling mean. Got 80% in 10 min, struggled with .rolling() window param, needed the docs hint.\nQ: SQL — write a join for top-3 customers per region. Window function froze her entirely; knew GROUP BY version only.\nQ: Bias in data — gave the sampling example, thoughtful answer.\nOverall: strong classical ML theory + pandas, SQL window functions and stats rigor below bar. Would not block on personality — coachable, needs one more pass on SQL."
+    }
+  ],
+  "log": []
+}
